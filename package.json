@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "INITIAL PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sneck44/E-COMMERCE.git"
+  },
+  "keywords": ["E-COMMERCE", "JS", "TS"],
+  "author": "Sneck44",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sneck44/E-COMMERCE/issues"
+  },
+  "homepage": "https://github.com/Sneck44/E-COMMERCE#readme"
+}
