@@ -4,17 +4,30 @@
   "description": "INITIAL PROJECT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --modo production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sneck44/E-COMMERCE.git"
   },
-  "keywords": ["E-COMMERCE", "JS", "TS"],
+  "keywords": [
+    "E-COMMERCE",
+    "JS",
+    "TS"
+  ],
   "author": "Sneck44",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sneck44/E-COMMERCE/issues"
   },
-  "homepage": "https://github.com/Sneck44/E-COMMERCE#readme"
+  "homepage": "https://github.com/Sneck44/E-COMMERCE#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
