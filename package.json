@@ -4,8 +4,8 @@
   "description": "INITIAL PROJECT",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --modo production",
-    "start": "webpack-dev-server --open --mode development"
+    "build": "webpack --mode production",
+    "start": "webpack serve --env mode"
   },
   "repository": {
     "type": "git",
