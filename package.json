@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --open --env mode"
+    "start": "webpack serve --env mode"
   },
   "repository": {
     "type": "git",

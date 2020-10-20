@@ -1,1 +1,3 @@
-console.log('carga pinche chingadera');
+import router from './Routes'
+
+window.addEventListener ('load', router);
