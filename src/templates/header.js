@@ -1,4 +1,4 @@
-const header= () => {
+const Header= () => {
     const view= `
     <header class="image-logo">
     <a>
