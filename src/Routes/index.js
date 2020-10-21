@@ -13,3 +13,5 @@ import items from '../Pages/items';
 
 header.innerHTML= await Header();
  }
+
+export default router
