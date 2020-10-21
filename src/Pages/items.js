@@ -1,4 +1,4 @@
-const items= () => {
+const Items= () => {
     const view= `
     </div>
     <img class="main-item">
@@ -8,4 +8,4 @@ const items= () => {
     return view;
 };
 
-export default items
+export default Items

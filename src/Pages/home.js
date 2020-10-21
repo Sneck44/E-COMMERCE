@@ -1,6 +1,4 @@
-const { WebpackOptionsDefaulter } = require("webpack")
-
-const home= () => {
+const Home= () => {
    const view= `
  <div class="Toys" >
     <article class="items">
@@ -15,4 +13,4 @@ const home= () => {
     return view;
 }
 
-export default home;
+export default Home;
