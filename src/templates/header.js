@@ -9,4 +9,4 @@ const header= () => {
     return view
 }
 
-export default header
+export default Header

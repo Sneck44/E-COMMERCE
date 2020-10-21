@@ -1,3 +1,3 @@
-import router from './Routes'
+import router from "./Routes";
 
-window.addEventListener ('load', router);
+window.addEventListener('load', router);
