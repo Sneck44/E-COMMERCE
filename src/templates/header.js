@@ -6,7 +6,7 @@ const Header= () => {
     </a>
     </header>
     `;
-    return view
+    return view;
 }
 
 export default Header
