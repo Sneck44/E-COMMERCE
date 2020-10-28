@@ -1,5 +1,5 @@
-const Header= () => {
-    const view= `
+const Header = () => {
+  const view = `
     <div class="image-logo">
     <a href="/">
     <img src="https://demo.codezeel.com/opencart/OPC06/OPC060146/image/catalog/logo.png" alt="logo"></img>
@@ -12,11 +12,11 @@ const Header= () => {
                 <i class="fas fa-bars"></i>Menu
             </summary>
             
-                 <ul>
+                 <ul class="menu">
                      <li class="listItems">Baby & Kids</li>
                      <details>
                         <summary><i class="far fa-plus-square"></i></summary>
-                    <ul>
+                <ul>
                         <li class="boy-suitElements">Playmates</li>
                         <details>
                             <summary><i class="far fa-plus-square"></i></summary> 
@@ -62,13 +62,14 @@ const Header= () => {
                            <li>Tops</li>
                         </ul>
                     </details>
+                    <ul>
                      <li class="listItems">Puzzels</li>
                      <li class="listItems">Rattels</li>
                      <li class="listItems">Rolling Toys</li>
                      <li class="listItems">Baby Toys</li>
                      <li class="listItems">Blogs</li>
                  </ul>
-            </details>
+                    </details>
         </div>
         <div class="nav-icons">
             <details>
@@ -81,7 +82,7 @@ const Header= () => {
                 <summary>
             <i class="fas fa-user"></i>
                 </summary>
-                <ul>
+                <ul class="userList">
                     <li>Register</li>
                     <li>Login</li>
                     <li>Wish List</li>
@@ -98,16 +99,14 @@ const Header= () => {
                 <summary>
             <i class="fas fa-cart-plus"></i>
                 </summary>
-                <ul>
-                    <li><input type="text"></li>
-                </ul>
+                    <input type="text">
             </details>
 
             
         </div>
     </section>
     `;
-    return view;
-}
+  return view;
+};
 
-export default Header
+export default Header;
