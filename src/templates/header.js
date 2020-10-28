@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const Header = () => {
   const view = `
     <div class="image-logo">
@@ -110,3 +111,17 @@ const Header = () => {
 };
 
 export default Header;
+=======
+const Header= () => {
+    const view= `
+    <div class="image-logo">
+    <a>
+    <img src="https://demo.codezeel.com/opencart/OPC06/OPC060146/image/catalog/logo.png" alt="logo"></img>
+    </a>
+    </div>
+    `;
+    return view;
+}
+
+export default Header
+>>>>>>> 9ce251b646520aa2521427ed03c5f27549403798
